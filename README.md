@@ -17,13 +17,13 @@ The generated wordlist is saved to a file at the user-provided path.
 - **Output Path**: Specify the file path where the wordlist will be saved.
 
 ## Usage
-wordlist-generator.py [-h] -l L -L L [-U] [-n] [-s] -o O
+wordlist-generator.py [-h] -l l -L L [-U] [-n] [-s] -o O
 
 Generate custom wordlists based on user-defined criteria.
 
 options:
   -h, --help  show this help message and exit
-  -l L        Minimum length of words (mandatory).
+  -l l        Minimum length of words (mandatory).
   -L L        Maximum length of words (mandatory).
   -U          Include uppercase letters (optional).
   -n          Include numbers (optional).
