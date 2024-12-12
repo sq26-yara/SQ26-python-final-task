@@ -22,13 +22,13 @@ wordlist-generator.py [-h] -l l -L L [-U] [-n] [-s] -o O
 Generate custom wordlists based on user-defined criteria.
 
 options:   
-  -h, --help     show this help message and exit;  
-  -l  l          Minimum length of words (mandatory);  
-  -L  L          Maximum length of words (mandatory);  
-  -U             Include uppercase letters (optional);  
-  -n             Include numbers (optional);  
-  -s             Include special characters (optional);  
-  -o O           Output file path (mandatory).
+  -h, --help    - show this help message and exit;  
+  -l  l         - Minimum length of words (mandatory);  
+  -L  L         - Maximum length of words (mandatory);  
+  -U            - Include uppercase letters (optional);  
+  -n            - Include numbers (optional);  
+  -s            - Include special characters (optional);  
+  -o O          - Output file path (mandatory).
   
 ## Exapmle
 python3 wordlist-generator.py -l 3 -L 6 -n -o wordlist_3-6.txt
