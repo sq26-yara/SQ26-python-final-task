@@ -17,7 +17,7 @@ The generated wordlist is saved to a file at the user-provided path.
 - **Output Path**: Specify the file path where the wordlist will be saved.
 
 ## Usage
-wordlist-creator.py [-h] -l L -L L [-U] [-n] [-s] -o O
+wordlist-generator.py [-h] -l L -L L [-U] [-n] [-s] -o O
 
 Generate custom wordlists based on user-defined criteria.
 
@@ -31,7 +31,7 @@ options:
   -o O        Output file path (mandatory).
   
 ## Exapmle
-python3 wordlist-creator.py -l 3 -L 6 -n -o wordlist_3-6.txt
+python3 wordlist-generator.py -l 3 -L 6 -n -o wordlist_3-6.txt
 
 ## Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
